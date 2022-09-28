@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://islemX:book123@cluster0.jq6zwnl.mongodb.net/firstapp?retryWrites=true&w=majority",
+  "jwtSecret":"mysecrettoken"
+}

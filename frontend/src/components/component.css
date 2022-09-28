@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+.nav-bar-styl{
+    font-family: 'Cinzel Decorative', cursive;
+    padding-left:100px;
+    border-radius: 3px;
+    
+    width: 130%;
+}
+
+.nav-bar-brand-styl{
+    margin-left:10px;
+    margin-right:10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.carr{ font-family: 'Cinzel Decorative', cursive;}
+.carr h1{margin-bottom: 40px;}
+/*Styling rating stars of the NavBar*/
+.react-stars-styl{
+    margin-right: 30px;
+    margin-left: 30px;
+    
+}
+.cole{
+    background-color:gray;
+}
+
+
+
+      
+
+
+
+
+.stats{display: flex;
+    flex-flow: column wrap;
+justify-content: center;
+    background-color:burlywood;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 7%;
+    padding-left: 0%;
+    height: 530px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+   
+   
+   
+    .logo img {
+        margin-top: 50px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        margin-left: 50%;
+        width: 60px;
+        border-radius: 10px;
+    }
+    .logo h3 {
+        margin-top: 30px;
+        color:  rgb(218,165,32);
+        text-align: center;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        margin-left: 3%;
+        font-family: 'Cinzel Decorative', cursive;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+    }
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+
+
+
+li a {line-height: 2.5; 
+     display: list-item;
+    text-decoration: none;
+color: azure;}
+@media screen and (max-width: 3000px){
+    .nav-bar-styl{width: 100%; height: 100%; display: flex; flex-flow: row wrap; margin-left: 0%; color: azure;}
+    .nav-bar-brand-styl{display: flex; flex-flow: column wrap;}
+    
+
+}
+
+
+
+.cards{display:flex;
+justify-content: center;
+width: 100%;
+
+
+height: 200px;
+}
+
+
+
+
+.container {
+    
+    position:relative;
+    text-align: center;
+    color: white;
+ 
+ width:200px ;
+   
+  }
+  
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:gray;
+    border-radius: 10px;
+    width: 70%;
+    font-family: 'Cinzel Decorative', cursive;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+  }
+  .genre{width: 350px;
+    height:195px}
+    .Genres h3{ font-family: 'Cinzel Decorative', cursive;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+    margin-bottom: 2%;
+margin-left: 2%;}
+.Genres{margin-bottom: 7%;}
